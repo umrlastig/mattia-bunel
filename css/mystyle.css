@@ -1,0 +1,81 @@
+
+body {
+    font-family: 'Muli';
+    padding-top: 0;
+    padding-left: 5%;
+    color: #868e96;
+    max-width: 1000px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+
+a {
+    color: #94c01a;
+    text-decoration: none;
+}
+
+ul {
+	column-width: 250px;
+}
+
+.social-icons {
+    padding-left: 5%;
+}
+
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+}
+
+.outline-2, .outline-3, p {
+    padding-left: 5%;
+}
+
+
+.imgLink{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.bibtex{
+    margin-left: 1px;
+    margin-right: 1px;
+}
