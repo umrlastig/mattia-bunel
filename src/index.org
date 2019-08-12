@@ -7,7 +7,7 @@
 #+HTML_DOCTYPE: xhtml5
 
 #+AUTHOR: {{{me}}}
-#+TITLE: {{{me}}}'s homepage
+#+TITLE: {{{me}}} 's homepage
 #+DESCRIPTION: LASTIG {{{me}}}'s homepage
 
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -96,9 +96,3 @@ window.onload = function() {
 I was on a [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][radio show]] about mountain rescue and my research work (in french).
 
 I have also participated in a [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][popular science program on twitter]] (french).
-
-#+BEGIN_export html
-<script src="js/p5.min.js"></script> 
-<script src="js/vanta.trunk.min.js"></script> 
-<script> VANTA.TRUNK({ el: "html" }) </script>
-#+END_export
