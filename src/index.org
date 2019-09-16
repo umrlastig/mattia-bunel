@@ -50,7 +50,7 @@ I'm am on Twitter (@mattiabunel) and GitHub (mbunel)
 - Spatial localisation
 * Experience
 Before my doctorate, I worked as a research engineer in the
-[[http://www.world-seastems.cnrs.fr/][worldseamstems]] research project.
+[[http://www.world-seastems.cnrs.fr/][worldseastems]] research project.
 * Teaching
 ** Mastère DESIGEO
 - Vagueness modelisation introduction
