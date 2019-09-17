@@ -40,6 +40,10 @@ I'm am on Twitter (@mattiabunel) and GitHub (mbunel)
 * Experience
 Before my doctorate, I worked as a research engineer in the
 [[http://www.world-seastems.cnrs.fr/][worldseastems]] research project.
+
+I also worked with 
+
+
 * Teaching
 ** Mastère DESIGEO
 - Vagueness modelisation introduction
@@ -51,6 +55,7 @@ Before my doctorate, I worked as a research engineer in the
 ** ENSG 1st year
 - LaTeX introduction
 - QGIS introdiction
+* Encadrement
 * Publications
 ** Articles
 #+BEGIN_export html
