@@ -4,6 +4,7 @@ body {
     margin: auto;
     color: #DCDCCC;
     max-width: 1000px;
+    min-width: 500px;
     background: #3F3F3F;
 }
 
@@ -45,7 +46,7 @@ a {
 }
 
 ul {
-	column-width: 250px;
+    column-width: 250px;
 }
 
 .social-icons {
@@ -56,8 +57,7 @@ ul {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #495057;
-    color: #fff !important;
+    
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
@@ -65,17 +65,12 @@ ul {
     margin-right: 1rem;
 }
 
+
 .outline-2, .outline-3, p {
     padding-left: 5%;
 }
 
 
-.imgLink{
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.bibtex{
-    margin-left: 1px;
-    margin-right: 1px;
+.sub {
+    list-style: disc;
 }

@@ -3,11 +3,11 @@
 #+Macro: me {{{fname}}} {{{lname}}}
 #+Macro: halid mattia-bunel
 
-#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil title:t toc:1 num:nil html-postamble:nil
+#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil title:t toc:nil num:nil html-postamble:nil
 #+HTML_DOCTYPE: xhtml5
 
 #+AUTHOR: {{{me}}}
-#+TITLE: {{{me}}} 's homepage
+#+TITLE: {{{me}}}'s homepage
 #+DESCRIPTION: LASTIG {{{me}}}'s homepage
 
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">

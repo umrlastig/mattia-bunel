@@ -218,46 +218,6 @@ var createPubHTML = function(docs, parent){
   const listElement = document.createElement('li');
   listElement.innerHTML = docs.citationFull_s
   const appendChildElement = parent.appendChild(listElement);
-
-  // then create the "pubLink" div that contains the links related to the publication
-  pubLinkElement = document.createElement('div');
-  pubLinkElement.setAttribute("class","pubLink");
-  listElement.appendChild(pubLinkElement);
-  // create a span element inside the new div
-  spanElement = document.createElement('span');
-  spanElement.setAttribute("class","bibtex");
-  pubLinkElement.appendChild(spanElement);
-  // create an input element inside the span
-  inputElement = document.createElement('input');
-  inputElement.setAttribute("type","image");
-  inputElement.setAttribute("src","img/icons/bibtex.png");
-  inputElement.setAttribute("alt","BibTeX entry for this article");
-  inputElement.setAttribute("title","BibTeX entry for this article");
-  bibtexURL = "https://hal.archives-ouvertes.fr/"+docs.halId_s+"/bibtex";
-  inputElement.setAttribute("onclick","window.open('"+bibtexURL+"','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');");
-  spanElement.appendChild(inputElement);
-  // create an a element with the url to hal
-  aHALElement = document.createElement('a');
-  aHALElement.setAttribute("href",docs.halId_s);
-  aHALElement.setAttribute("class","imgLink");
-  imgElement = document.createElement('img');
-  imgElement.setAttribute("title","HAL");
-  imgElement.setAttribute("src","img/icons/hal.png");
-  imgElement.setAttribute("height","20");
-  imgElement.setAttribute("alt","HAL");
-  aHALElement.appendChild(imgElement);
-  pubLinkElement.appendChild(aHALElement);
-  // create an a element with the url of the pdf
-  pdfElement = document.createElement('a');
-  pdfElement.setAttribute("href",docs.fileMainAnnex_s);
-  pdfElement.setAttribute("class","imgLink");
-  imgPdfElement = document.createElement('img');
-  imgPdfElement.setAttribute("title","pdf");
-  imgPdfElement.setAttribute("src","img/icons/pdf_icon.gif");
-  imgPdfElement.setAttribute("height","20");
-  imgPdfElement.setAttribute("alt","pdf");
-  pdfElement.appendChild(imgPdfElement);
-  pubLinkElement.appendChild(pdfElement);
 }
 
 
@@ -265,46 +225,6 @@ var createTalkHTML = function(docs, parent){
   const listElement = document.createElement('li');
   listElement.innerHTML = docs.citationFull_s
   const appendChildElement = parent.appendChild(listElement);
-
-  // then create the "pubLink" div that contains the links related to the publication
-  pubLinkElement = document.createElement('div');
-  pubLinkElement.setAttribute("class","pubLink");
-  listElement.appendChild(pubLinkElement);
-  // create a span element inside the new div
-  spanElement = document.createElement('span');
-  spanElement.setAttribute("class","bibtex");
-  pubLinkElement.appendChild(spanElement);
-  // create an input element inside the span
-  inputElement = document.createElement('input');
-  inputElement.setAttribute("type","image");
-  inputElement.setAttribute("src","img/icons/bibtex.png");
-  inputElement.setAttribute("alt","BibTeX entry for this article");
-  inputElement.setAttribute("title","BibTeX entry for this article");
-  bibtexURL = "https://hal.archives-ouvertes.fr/"+docs.halId_s+"/bibtex";
-  inputElement.setAttribute("onclick","window.open('"+bibtexURL+"','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');");
-  spanElement.appendChild(inputElement);
-  // create an a element with the url to hal
-  aHALElement = document.createElement('a');
-  aHALElement.setAttribute("href",docs.halId_s);
-  aHALElement.setAttribute("class","imgLink");
-  imgElement = document.createElement('img');
-  imgElement.setAttribute("title","HAL");
-  imgElement.setAttribute("src","img/icons/hal.png");
-  imgElement.setAttribute("height","20");
-  imgElement.setAttribute("alt","HAL");
-  aHALElement.appendChild(imgElement);
-  pubLinkElement.appendChild(aHALElement);
-  // create an a element with the url of the pdf
-  pdfElement = document.createElement('a');
-  pdfElement.setAttribute("href",docs.fileMain_s);
-  pdfElement.setAttribute("class","imgLink");
-  imgPdfElement = document.createElement('img');
-  imgPdfElement.setAttribute("title","pdf");
-  imgPdfElement.setAttribute("src","img/icons/pdf_icon.gif");
-  imgPdfElement.setAttribute("height","20");
-  imgPdfElement.setAttribute("alt","pdf");
-  pdfElement.appendChild(imgPdfElement);
-  pubLinkElement.appendChild(pdfElement);
 }
 
 var sort_by = function(field, reverse, primer){
