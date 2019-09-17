@@ -3,16 +3,47 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:admin="http://webns.net/mvcb/">
+  
   <foaf:PersonalProfileDocument rdf:about="">
     <foaf:maker rdf:resource="#me"/>
     <foaf:primaryTopic rdf:resource="#me"/>
     <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
     <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
   </foaf:PersonalProfileDocument>
+  
   <foaf:Person rdf:ID="me">
     <foaf:name>Mattia Bunel</foaf:name>
     <foaf:givenname>Mattia</foaf:givenname>
     <foaf:family_name>Bunel</foaf:family_name>
     <foaf:workplaceHomepage rdf:resource="https://umrlastig.github.io/"/>
-  <foaf:workInfoHomepage rdf:resource="https://umrlastig.github.io/mbunel_homepage/"/></foaf:Person>
+    <foaf:workInfoHomepage rdf:resource="https://umrlastig.github.io/mbunel_homepage/"/>
+    
+    <foaf:account>
+      <foaf:OnlineAccount>
+	<foaf:name>Twitter</foaf:name>
+	<foaf:accountServiceHomepage rdf:resource="https://twitter.com"/>
+	<foaf:page rdf:ressource="https://twitter.com/mattiabunel"/>
+	<foaf:accountName>mattiabunel</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+    <foaf:account>
+      <foaf:OnlineAccount>
+	<foaf:name>GitHub</foaf:name>
+	<foaf:accountServiceHomepage rdf:resource="https://github.com"/>
+	<foaf:page rdf:ressource="https://github.com/MBunel"/>
+	<foaf:accountName>MBunel</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+    <foaf:account>
+      <foaf:OnlineAccount>
+	<foaf:name>OCRID</foaf:name>
+	<foaf:accountServiceHomepage rdf:resource="https://orcid.org"/>
+	<foaf:page rdf:ressource="https://orcid.org/0000-0001-7751-3507"/>
+	<foaf:accountName>0000-0001-7751-3507</foaf:accountName>
+      </foaf:OnlineAccount>
+  </foaf:account>
+    
+  </foaf:Person>
 </rdf:RDF>

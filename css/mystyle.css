@@ -72,7 +72,7 @@ ul {
 }
 
 
-.outline-2, .outline-3, p {
+div > * {
     padding-left: 5%;
 }
 
