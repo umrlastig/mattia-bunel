@@ -1,10 +1,10 @@
 
 body {
     font-family: 'Muli';
-    padding-top: 0;
-    padding-left: 5%;
-    color: #868e96;
+    margin: auto,
+    color: #DCDCCC;
     max-width: 1000px;
+    background: #3F3F3F;
 }
 
 
@@ -17,7 +17,7 @@ h6 {
     font-family: 'Saira Extra Condensed';
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #DCDCCC;
 }
 
 h1 {
@@ -40,7 +40,7 @@ p.lead {
 
 
 a {
-    color: #94c01a;
+    color: #DFAF8F;
     text-decoration: none;
 }
 
