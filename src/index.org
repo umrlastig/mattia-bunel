@@ -30,17 +30,6 @@ I'm a member of the LASTIG's [[https://umrlastig.github.io/meig/][MEIG]] team.
 #+BEGIN_social
 I'm am on Twitter (@mattiabunel) and GitHub (mbunel)
 #+END_social
-
-#+BEGIN_export html
-<div class="social-icons">
-    <a href="https://github.com/mbunel">
-        <i class="fab fa-github"></i>
-    </a>
-    <a href="https://twitter.com/mattiabunel">
-        <i class="fab fa-twitter"></i>
-    </a>
-</div>
-#+END_export
     
 * Research Interests
 - Fuzzy logic
@@ -67,7 +56,7 @@ Before my doctorate, I worked as a research engineer in the
 #+BEGIN_export html
 <ol id="pubJ" class="sub"></ol>
 #+END_export
-** Conference
+** Conferences
 #+BEGIN_export html
 <ol id="pubC" class="sub"></ol>
 #+END_export
@@ -79,7 +68,7 @@ Before my doctorate, I worked as a research engineer in the
 #+BEGIN_export html
 <ol id="pubW" class="sub"></ol>
 #+END_export
-** Other
+** Others
 #+BEGIN_export html
 <ol id="pubO" class="sub"></ol>
 #+END_export

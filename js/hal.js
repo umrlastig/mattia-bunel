@@ -215,16 +215,16 @@ var getInvitedTalksAuthor = function(halId){
 
 
 var createPubHTML = function(docs, parent){
-  const listElement = document.createElement('li');
-  listElement.innerHTML = docs.citationFull_s
-  const appendChildElement = parent.appendChild(listElement);
+    const listElement = document.createElement('li');
+    listElement.innerHTML = docs.citationFull_s.replace('Mattia Bunel', '<b>$&</b>');
+    const appendChildElement = parent.appendChild(listElement);
 }
 
 
 var createTalkHTML = function(docs, parent){
-  const listElement = document.createElement('li');
-  listElement.innerHTML = docs.citationFull_s
-  const appendChildElement = parent.appendChild(listElement);
+    const listElement = document.createElement('li');
+    listElement.innerHTML = docs.citationFull_s.replace('Mattia Bunel', '<b>$&</b>');
+    const appendChildElement = parent.appendChild(listElement);
 }
 
 var sort_by = function(field, reverse, primer){
