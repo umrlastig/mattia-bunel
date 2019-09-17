@@ -3,7 +3,8 @@
 #+Macro: me {{{fname}}} {{{lname}}}
 #+Macro: halid mattia-bunel
 
-#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil title:t toc:nil num:nil html-postamble:nil
+#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil 
+#+OPTIONS: title:t toc:nil num:nil html-postamble:nil
 #+HTML_DOCTYPE: xhtml5
 
 #+AUTHOR: {{{me}}}
@@ -15,6 +16,7 @@
 #+HTML_HEAD: <link href="static/css/all.css" rel="stylesheet">
 #+HTML_HEAD: <link href="css/mystyle.css" rel="stylesheet">
 #+HTML_HEAD: <script src="js/hal.js" charset="utf-8"></script>
+#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="./static/foaf.rdf">
 
 #+BEGIN_presentation
 I'm a Phd Candidate inside of the [[http://choucas.ign.fr/][Choucas]] project. 
