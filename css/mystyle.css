@@ -52,7 +52,7 @@ a {
 }
 
 ul {
-    column-width: 250px;
+    #column-width: 250px;
 }
 
 .social-icons {
@@ -79,4 +79,8 @@ ul {
 
 .sub {
     list-style: disc;
+}
+
+#postamble {
+    text-align: center;
 }

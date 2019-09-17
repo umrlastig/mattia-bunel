@@ -12,7 +12,7 @@
 
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-#+HTML_HEAD: <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+#+HTML_HEAD: <link href="static/css/all.css" rel="stylesheet">
 #+HTML_HEAD: <link href="css/mystyle.css" rel="stylesheet">
 #+HTML_HEAD: <script src="js/hal.js" charset="utf-8"></script>
 
@@ -27,9 +27,10 @@ exploitable position.
 I'm a member of the LASTIG's [[https://umrlastig.github.io/meig/][MEIG]] team.
 #+END_team
 
-#+BEGIN_social
-I'm am on Twitter (@mattiabunel) and GitHub (mbunel)
-#+END_social
+I'm am on Twitter (@@html:<a href="https://twitter.com/mattiabunel"><i
+class="fab fa-twitter" href="./test"></i></a>@@) and GitHub (@@html:<a
+href="https://github.com/MBunel"><i class="fab fa-github"
+href="./test"></i></a>@@)
     
 * Research Interests
 - Fuzzy logic
@@ -38,7 +39,9 @@ I'm am on Twitter (@mattiabunel) and GitHub (mbunel)
 - Naive Geography
 - Spatial localisation
 * Experience
-Before my doctorate, I worked as a research engineer in the
+Before my doctorate, I was an engineer 
+worked as a research engineer in the
+
 [[http://www.world-seastems.cnrs.fr/][worldseastems]] research project.
 
 I also worked with 
@@ -55,7 +58,7 @@ I also worked with
 ** ENSG 1st year
 - LaTeX introduction
 - QGIS introdiction
-* Encadrement
+# * Encadrement
 * Publications
 ** Articles
 #+BEGIN_export html
@@ -91,6 +94,5 @@ window.onload = function() {
 </script>
 #+END_EXPORT
 * Science popularization
-I was on a [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][radio show]] about mountain rescue and my research work (in french).
-
-I have also participated in a [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][popular science program on twitter]] (french).
+- I was on a [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][radio show]] about mountain rescue and my research work (in french).
+- I have also participated in a [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][popular science program on twitter]] (french).
