@@ -19,10 +19,18 @@
 #+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="./static/foaf.rdf">
 
 #+BEGIN_presentation
-I'm a Phd Candidate inside of the [[http://choucas.ign.fr/][Choucas]] project. 
+I'm a Phd Candidate inside of the [[http://choucas.ign.fr/][Choucas]] project. The aim of this
+project is "[…] to provide methods and tools for enriching,
+structuring, querying and visualising spatial data coming from
+heterogeneous sources and reasoning to help the rescue teams to speed
+up the phase of victims location and to better estimate a probable
+location area."
 
-My main objective is to transform a description of position in an
-exploitable position.
+My PhD specifically focuses on the question of transforming a position
+described in an set of coordinates, computationally exploitable. To do
+this, we must work with the imprecision of natural language and the
+semantic variability of spatial prepositions.
+
 #+END_presentation
 
 #+BEGIN_team
@@ -56,34 +64,31 @@ To contact me:
 - Naive Geography
 - Spatial localisation
 * Experience
-Before my doctorate, I was an engineer 
-worked as a research engineer in the
-
-[[http://www.world-seastems.cnrs.fr/][worldseastems]] research project.
-
-I also worked with 
-
+Before my doctorate, I was an engineer in the [[http://www.parisgeo.cnrs.fr/][Géographie-cités]]
+research laboratory. I mainly worded for the [[http://www.world-seastems.cnrs.fr/][WorldSeastems]] research
+project. The main objective of this project is to exploit the archives
+of the first marine insurer (Lloyd's of London) to study the evolution
+of maritime traffic, since the nineteenth century.
 
 * Teaching
 ** Mastère DESIGEO
 - Vagueness modelisation introduction:
-# L'objectif de ce [[https://github.com/MBunel/Cours/blob/master/DESIGEO/ModèlesVagues/][cours]] est d'introduire la notion /d'imprécision
-# spatiale/ et de présenter les différents modèles permettant sa
-# modélisation. 
+The objective of this[[https://github.com/MBunel/Cours/blob/master/DESIGEO/ModèlesVagues/][course]] is to introduce the notion of spatial
+vagueness and present the different models allowing its modelization.
 
 ** Master IGAST
 - Spatial analysis:
-# Présentation du MAUP et de l'analyse multivariée
+Introduction to Maup and multivariate analysis
 
 ** ENSG 2nd year
 - PostgreSQL/PotGIS introduction:
-# Introduction à l'utilisation de PostgreSQL et PostGis
+Practical introduction to Postgres and postgis
 - Spatial analysis introduction:
-# Introduction à l'analyse spatiale
+Practical introduction to some morphology indicators
 
 ** ENSG 1st year
 - QGIS introduction:
-# In troduction à QGIS et au SIG
+Practical introduction to GIS using QGIS
 
 # * Encadrement
 * Publications
