@@ -4,7 +4,7 @@ body {
     margin: auto;
     color: #DCDCCC;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 400px;
     background: #3F3F3F;
     background-image: linear-gradient(rgba(73, 73, 73, 0.5) 1px, transparent 1px),
 		      linear-gradient(90deg, rgba(73, 73, 73, 0.5) 1px, transparent 1px),
