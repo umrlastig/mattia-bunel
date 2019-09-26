@@ -4,7 +4,7 @@ body {
     margin: auto;
     color: #DCDCCC;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 400px;
     background: #3F3F3F;
     background-image: linear-gradient(rgba(73, 73, 73, 0.5) 1px, transparent 1px),
 		      linear-gradient(90deg, rgba(73, 73, 73, 0.5) 1px, transparent 1px),
@@ -12,6 +12,7 @@ body {
 		      linear-gradient(90deg, rgba(73, 73, 73, 0.75) 2px, transparent 2px);
     background-size: 20px 20px, 20px 20px, 100px 100px, 100px 100px;
     background-position: -1px -1px, -1px -1px, -2px -2px, -2px -2px;
+    background-attachment: fixed;
 }
 
 

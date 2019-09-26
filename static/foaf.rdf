@@ -20,7 +20,7 @@
       <foaf:OnlineAccount>
 	<foaf:name>Twitter</foaf:name>
 	<foaf:accountServiceHomepage rdf:resource="https://twitter.com"/>
-	<foaf:page rdf:ressource="https://twitter.com/mattiabunel"/>
+	<foaf:page rdf:resource="https://twitter.com/mattiabunel"/>
 	<foaf:accountName>mattiabunel</foaf:accountName>
       </foaf:OnlineAccount>
     </foaf:account>
@@ -29,7 +29,7 @@
       <foaf:OnlineAccount>
 	<foaf:name>GitHub</foaf:name>
 	<foaf:accountServiceHomepage rdf:resource="https://github.com"/>
-	<foaf:page rdf:ressource="https://github.com/MBunel"/>
+	<foaf:page rdf:resource="https://github.com/MBunel"/>
 	<foaf:accountName>MBunel</foaf:accountName>
       </foaf:OnlineAccount>
     </foaf:account>
@@ -38,7 +38,7 @@
       <foaf:OnlineAccount>
 	<foaf:name>OCRID</foaf:name>
 	<foaf:accountServiceHomepage rdf:resource="https://orcid.org"/>
-	<foaf:page rdf:ressource="https://orcid.org/0000-0001-7751-3507"/>
+	<foaf:page rdf:resource="https://orcid.org/0000-0001-7751-3507"/>
 	<foaf:accountName>0000-0001-7751-3507</foaf:accountName>
       </foaf:OnlineAccount>
   </foaf:account>
