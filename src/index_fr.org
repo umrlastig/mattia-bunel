@@ -1,0 +1,136 @@
+#+Macro: fname Mattia
+#+Macro: lname Bunel
+#+Macro: me {{{fname}}} {{{lname}}}
+#+Macro: halid mattia-bunel
+
+#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil 
+#+OPTIONS: title:t toc:nil num:nil html-postamble:nil
+#+HTML_DOCTYPE: xhtml5
+
+#+AUTHOR: {{{me}}}
+#+TITLE: {{{me}}}
+#+DESCRIPTION: Page LASTIG de {{{me}}}
+
+#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+#+HTML_HEAD: <link href="static/css/all.css" rel="stylesheet">
+#+HTML_HEAD: <link href="css/mystyle.css" rel="stylesheet">
+#+HTML_HEAD: <script src="js/hal.js" charset="utf-8"></script>
+#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="./static/foaf.rdf">
+
+#+BEGIN_translation
+[[file:index.org][English version]]
+#+END_translation
+
+#+BEGIN_presentation
+Je suis doctorant au sein du projet [[http://choucas.ign.fr/][Choucas]], dont l'objectif est "[…]
+de proposer des méthodes et des outils permettant de constituer et
+enrichir des données géographiques issues de sources hétérogènes, et
+des modèles de raisonnement afin de favoriser le processus de décision
+dans le contexte de la localisation des victimes en montagne."
+
+L'objectif de ma thèse est de passer d'une /description de
+position/ à un ensemble de coordonées exploitables.
+#+END_presentation
+
+#+BEGIN_team
+Je suis rattaché à l'équipe [[https://umrlastig.github.io/meig/][MEIG]] du laboratoire [[https://umrlastig.github.io][LASTIG]]
+#+END_team
+
+#+BEGIN_contact
+Liens de contact :
+#+BEGIN_contactlist
+- Mail @@html:<a href="mailto:mattia.bunel@ign.fr"><i class="fas
+  fa-envelope"></i></a>@@ 
+- Clé GPG @@html:<a href="static/public-key.txt"><i class="fas
+  fa-key"></i></a>@@
+- Téléphone professionnel @@html:<a href="tel:+33143988000"><i class="fas
+  fa-phone"></i></a>@@
+- Twitter @@html:<a href="https://twitter.com/mattiabunel"><i
+  class="fab fa-twitter"></i></a>@@
+- GitHub @@html:<a href="https://github.com/MBunel"><i class="fab
+  fa-github"></i></a>@@
+- OCRID @@html:<a href="https://orcid.org/0000-0001-7751-3507"><i class="fas
+  fa-user-tag"></i></a>@@
+- FOAF @@html:<a href="static/foaf.rdf"><i class="fas
+  fa-address-card"></i></a>@@
+#+END_contactlist
+#+END_contact
+
+* Thématiques de recherche
+- Imprécision et imprécision spatiale
+- /Naive Geography/
+- Localisation spatiale
+
+* Formation et expérience
+
+J'ai été ingénieur d'études au sein du laboratoire [[http://www.parisgeo.cnrs.fr/][Géographie-cités]].
+J'ai principalement travaillé pour le projet [[http://www.world-seastems.cnrs.fr/][WorldSeastems]], dont
+l'objectif est l'extraction et l'analyse des archives du principal
+assureur maritime (la Lloyd's of London).
+
+Je suis titulaire d'une licence en géographie (2010-2013), d'un master
+2 recherche en géographie quantitative (master /structures et
+dynamiques spatiales,/ 2015) et d'un master professionnel en
+cathographie et géomatique (/master Carthagéo,/ 2016).
+
+* Enseignements
+** Mastère DESIGEO
+- Introduction à /l'imprécision spatiale/ et à sa modélisation
+
+** Master IGAST
+- Analyse spatiale
+
+** ENSG cycle ingénieur:
+
+*** 2^nd année
+- Introduction à PostgreSQL/PotGIS
+- Introduction à l'analyse spatiale
+
+*** 1^ère année 
+ - Introduction à QGIS:
+
+ # * Encadrement
+* Publications
+
+#+BEGIN_notaBene
+Cette liste est générée automatiquement à partir de mon profil
+[[https://hal.archives-ouvertes.fr/][Hal]]. Elle peut donc contenir certaines erreurs.
+#+END_notaBene
+
+** Articles
+#+BEGIN_export html
+<ol id="pubJ" class="sub"></ol>
+#+END_export
+** Conférences
+#+BEGIN_export html
+<ol id="pubC" class="sub"></ol>
+#+END_export
+** Chapitres d'ouvrages
+#+BEGIN_export html
+<ol id="pubB" class="sub"></ol>
+#+END_export
+** Posters
+#+BEGIN_export html
+<ol id="pubW" class="sub"></ol>
+#+END_export
+** Autres
+#+BEGIN_export html
+<ol id="pubO" class="sub"></ol>
+#+END_export
+#+BEGIN_EXPORT html
+<script type="text/javascript">
+window.onload = function() {
+    var me = 'mattia-bunel';
+    getJournalPublicationsAuthor(me);
+    getConfPublicationsAuthor(me);
+    getBookPublicationsAuthor(me);
+    getWorkshopPublicationsAuthor(me);
+    getOtherPublicationsAuthor(me);
+    //getInvitedTalksAuthor(me);
+};
+</script>
+#+END_EXPORT
+* Vulgarisation scientifique
+- [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de mon travail de recherche]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
+- [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]

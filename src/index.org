@@ -16,7 +16,11 @@
 #+HTML_HEAD: <link href="static/css/all.css" rel="stylesheet">
 #+HTML_HEAD: <link href="css/mystyle.css" rel="stylesheet">
 #+HTML_HEAD: <script src="js/hal.js" charset="utf-8"></script>
-#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="./static/foaf.rdf">
+#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="static/foaf.rdf">
+
+#+BEGIN_translation
+[[file:index_fr.org][Version française]]
+#+END_translation
 
 #+BEGIN_presentation
 I'm a Phd Candidate inside of the [[http://choucas.ign.fr/][Choucas]] project. The aim of this
@@ -38,22 +42,22 @@ I'm a member of the LASTIG's [[https://umrlastig.github.io/meig/][MEIG]] team.
 #+END_team
 
 #+BEGIN_contact
-To contact me:
+Contact links :
 #+BEGIN_contactlist
-- Mail (@@html:<a href="mailto:mattia.bunel@ign.fr"><i class="fas
-  fa-envelope"></i></a>@@), with my GPG key (@@html:<a
-  href="static/public-key.txt"><i
-  class="fas fa-key"></i></a>@@)
-- Phone (@@html:<a href="tel:+33143988000"><i class="fas
-  fa-phone"></i></a>@@)
-- Twitter (@@html:<a href="https://twitter.com/mattiabunel"><i
-  class="fab fa-twitter"></i></a>@@)
-- GitHub (@@html:<a href="https://github.com/MBunel"><i class="fab
-  fa-github"></i></a>@@)
-- If necessary this is my OCRID (@@html:<a href="https://orcid.org/0000-0001-7751-3507"><i class="fas
-  fa-user-tag"></i></a>@@)
-- And my foaf file (@@html:<a href="static/foaf.rdf"><i class="fas
-  fa-address-card"></i></a>@@)
+- Mail @@html:<a href="mailto:mattia.bunel@ign.fr"><i class="fas
+  fa-envelope"></i></a>@@ 
+- My GPG key @@html:<a href="static/public-key.txt"><i class="fas
+  fa-key"></i></a>@@
+- Phone @@html:<a href="tel:+33143988000"><i class="fas
+  fa-phone"></i></a>@@
+- Twitter @@html:<a href="https://twitter.com/mattiabunel"><i
+  class="fab fa-twitter"></i></a>@@
+- GitHub @@html:<a href="https://github.com/MBunel"><i class="fab
+  fa-github"></i></a>@@
+- OCRID @@html:<a href="https://orcid.org/0000-0001-7751-3507"><i class="fas
+  fa-user-tag"></i></a>@@
+- FOAF @@html:<a href="static/foaf.rdf"><i class="fas
+  fa-address-card"></i></a>@@
 #+END_contactlist
 #+END_contact
 
@@ -73,11 +77,13 @@ of maritime traffic, since the nineteenth century.
 * Teaching
 ** Mastère DESIGEO
 - Vagueness modelisation introduction:
-The objective of this[[https://github.com/MBunel/Cours/blob/master/DESIGEO/ModèlesVagues/][course]] is to introduce the notion of spatial
+
+The objective of this course [[https://github.com/MBunel/Cours/blob/master/DESIGEO/ModèlesVagues/][(fr)]] is to introduce the notion of spatial
 vagueness and present the different models allowing its modelization.
 
 ** Master IGAST
 - Spatial analysis:
+
 Introduction to Maup and multivariate analysis
 
 ** ENSG 2nd year
@@ -132,5 +138,5 @@ window.onload = function() {
 </script>
 #+END_EXPORT
 * Science popularization
-- I was on a [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][radio show]] about mountain rescue and my research work (in french).
-- I have also participated in a [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][popular science program on twitter]] (french).
+- I was on a radio show [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][(fr)]] about mountain rescue and my research work.
+- I have also participated in a popular science program on twitter [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][(fr)]].
