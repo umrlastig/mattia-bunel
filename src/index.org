@@ -42,7 +42,7 @@ To contact me:
 #+BEGIN_contactlist
 - Mail (@@html:<a href="mailto:mattia.bunel@ign.fr"><i class="fas
   fa-envelope"></i></a>@@), with my GPG key (@@html:<a
-  href="http://keys.gnupg.net/pks/lookup?op=get&search=0x39E11DF4026AC0C3"><i
+  href="static/public-key.txt"><i
   class="fas fa-key"></i></a>@@)
 - Phone (@@html:<a href="tel:+33143988000"><i class="fas
   fa-phone"></i></a>@@)
@@ -52,7 +52,7 @@ To contact me:
   fa-github"></i></a>@@)
 - If necessary this is my OCRID (@@html:<a href="https://orcid.org/0000-0001-7751-3507"><i class="fas
   fa-user-tag"></i></a>@@)
-- And my foaf file (@@html:<a href="./static/foaf.rdf"><i class="fas
+- And my foaf file (@@html:<a href="static/foaf.rdf"><i class="fas
   fa-address-card"></i></a>@@)
 #+END_contactlist
 #+END_contact
