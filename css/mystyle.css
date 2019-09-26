@@ -81,6 +81,11 @@ div > * {
     list-style: disc;
 }
 
+
+.notaBene p {
+    font-variant: sub;
+}
+
 #postamble {
     text-align: center;
 }

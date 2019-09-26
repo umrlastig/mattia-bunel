@@ -92,6 +92,12 @@ Practical introduction to GIS using QGIS
 
 # * Encadrement
 * Publications
+
+#+BEGIN_notaBene
+This list is an automatic extraction of my [[https://hal.archives-ouvertes.fr/][Hal]] profile. There may be
+some extraction errors.
+#+END_notaBene
+
 ** Articles
 #+BEGIN_export html
 <ol id="pubJ" class="sub"></ol>
