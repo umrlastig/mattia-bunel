@@ -14,6 +14,7 @@
     <foaf:givenName>Mattia</foaf:givenName>
     <foaf:familyName>Bunel</foaf:familyName>
     <foaf:homepage rdf:resource="https://umrlastig.github.io/"/>
+    <foaf:publications rdf:ressource="https://hal.archives-ouvertes.fr/search/index/?q=mattia+bunel&authIdHal_s=mattia-bunel"/>
     <foaf:workInfoHomepage rdf:resource="https://umrlastig.github.io/mbunel_homepage/"/>
     
     <foaf:account>
