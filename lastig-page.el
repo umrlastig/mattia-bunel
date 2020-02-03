@@ -9,7 +9,7 @@
 (setq org-publish-project-alist
       '(("lastig_page"
 	 :base-directory "./src"
-	 :publishing-directory "./"
+	 :publishing-directory "./docs"
 	 :publishing-function org-html-publish-to-html
 	 :auto-sitemap nil)))
 
