@@ -23,11 +23,15 @@
 #+END_translation
 
 #+BEGIN_presentation
-Je suis doctorant au sein du projet [[http://choucas.ign.fr/][Choucas]], dont l'objectif est "[…]
-de proposer des méthodes et des outils permettant de constituer et
-enrichir des données géographiques issues de sources hétérogènes, et
-des modèles de raisonnement afin de favoriser le processus de décision
-dans le contexte de la localisation des victimes en montagne."
+Je suis doctorant en géomatique au sein de l'équipe [[https://umrlastig.github.io/meig/][MEIG]] du
+laboratoire [[https://umrlastig.github.io][LASTIG]]. Mes travaux de recherche s'inscrivent dans le
+projet [[http://choucas.ign.fr/][Choucas]], financé par l'ANR. 
+
+Le projet Choucas vise à « […]  proposer des méthodes et des outils
+permettant de constituer et enrichir des données géographiques issues
+de sources hétérogènes, et des modèles de raisonnement afin de
+favoriser le processus de décision dans le contexte de la localisation
+des victimes en montagne. »
 
 L'objectif de ma thèse est de passer d'une /description de
 position/ à un ensemble de coordonées exploitables.
@@ -69,6 +73,7 @@ J'ai principalement travaillé pour le projet [[http://www.world-seastems.cnrs.f
 l'objectif est l'extraction et l'analyse des archives du principal
 assureur maritime (la Lloyd's of London).
 
+
 Je suis titulaire d'une licence en géographie (2010-2013), d'un master
 2 recherche en géographie quantitative (master /structures et
 dynamiques spatiales,/ 2015) et d'un master professionnel en
@@ -76,23 +81,35 @@ cathographie et géomatique (/master Carthagéo,/ 2016).
 
 * Enseignements
 ** Mastère DESIGEO
-- Introduction à /l'imprécision spatiale/ et à sa modélisation
+- Introduction à /l'imprécision spatiale/ et à sa modélisation (2018--2019, 2019--2020):
 
+Introduction aux notions de /vague, incertitude/ et /imprécision/ et
+de leurs équivalents spatiaux. Présentation des 
+  
 ** Master IGAST
-- Analyse spatiale
+- Analyse spatiale (2017--2018, 2018--2019, 2019--2020):
+
+TP sur l'analyse multivariée et le MAUP 
 
 ** ENSG cycle ingénieur:
 
 *** 2^nd année
-- Introduction à PostgreSQL/PotGIS
-- Introduction à l'analyse spatiale
+- Introduction à PostgreSQL/PotGIS (2017--2018, 2018--2019, 2019--2020):
+
+Introduction au SGBDR PostgreSQL et à sa cartouche spatiale PostGis.
+
+- Introduction à l'analyse spatiale (2017--2018, 2018--2019, 2019--2020):
+
 
 *** 1^ère année 
- - Introduction à QGIS:
+- Introduction à QGIS (2017--2018, 2018--2019):
+
+Introduction aux SIG par le biais de QGIS.
+
+
 
  # * Encadrement
 * Publications
-
 #+BEGIN_notaBene
 Cette liste est générée automatiquement à partir de mon profil
 [[https://hal.archives-ouvertes.fr/][Hal]]. Elle peut donc contenir certaines erreurs.
@@ -132,5 +149,5 @@ window.onload = function() {
 </script>
 #+END_EXPORT
 * Vulgarisation scientifique
-- [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de mon travail de recherche]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
+- [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
 - [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]
