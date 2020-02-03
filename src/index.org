@@ -13,10 +13,10 @@
 
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-#+HTML_HEAD: <link href="../static/css/all.css" rel="stylesheet">
-#+HTML_HEAD: <link href="../static/css/mystyle.css" rel="stylesheet">
-#+HTML_HEAD: <script src="../static/js/hal.js" charset="utf-8"></script>
-#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="../static/foaf.rdf">
+#+HTML_HEAD: <link href="static/css/all.css" rel="stylesheet">
+#+HTML_HEAD: <link href="static/css/mystyle.css" rel="stylesheet">
+#+HTML_HEAD: <script src="static/js/hal.js" charset="utf-8"></script>
+#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="static/foaf.rdf">
 
 #+BEGIN_translation
 [[file:index_fr.org][Version française]]
