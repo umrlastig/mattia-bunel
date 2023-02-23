@@ -1,0 +1,31 @@
+#+Macro: fname Mattia
+#+Macro: lname Bunel
+#+Macro: me {{{fname}}} {{{lname}}}
+#+Macro: halid mattia-bunel
+
+#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil 
+#+OPTIONS: title:t toc:nil num:nil html-postamble:nil
+#+HTML_DOCTYPE: xhtml5
+
+#+SETUPFILE: ../static/retro_dark.theme
+
+#+AUTHOR: {{{me}}}
+#+TITLE: {{{me}}}
+#+DESCRIPTION: Web page of {{{me}}}
+
+#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="static/foaf.rdf">
+
+
+#+bibliography: ../static/biblio.bib
+
+#+attr_html: :style font-size:small; margin-bottom:2.5em;
+#+begin_div
+[[file:index_en.org][English version]] --- [[file:index_fr.org][Version Fançaise]]
+
++ Mail : mailto:mattia.bunel@ign.fr
++ Twitter: https://twitter.com/mattiabunel
++ GitHub : https://github.com/MBunel
++ OCRID : https://orcid.org/0000-0001-7751-3507
++ Clé GPG : [[file:static/public-key.txt]]
++ FoafMe : [[file:static/foaf.rdf]]
+#+end_div

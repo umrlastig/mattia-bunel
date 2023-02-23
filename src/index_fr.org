@@ -1,153 +1,175 @@
-#+Macro: fname Mattia
-#+Macro: lname Bunel
-#+Macro: me {{{fname}}} {{{lname}}}
-#+Macro: halid mattia-bunel
+#+INCLUDE: "base.org"
+#+LANGUAGE:fr
 
-#+OPTIONS: html-style:nil html5-fancy:t html-style-include-scripts:nil 
-#+OPTIONS: title:t toc:nil num:nil html-postamble:nil
-#+HTML_DOCTYPE: xhtml5
+Je suis docteur en géomatique, rattaché, au corps des ingénieurs des
+travaux géographiques et cartographiques de l’état (ITGCE), avec la
+fonction d’ingénieur d’études référent pour les produits altimétriques
+au sein de l’institut national de l’information géographique et
+forestière (IGN).
 
-#+AUTHOR: {{{me}}}
-#+TITLE: {{{me}}}
-#+DESCRIPTION: Page LASTIG de {{{me}}}
+* Travaux de recherche
 
-#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-#+HTML_HEAD: <link href="static/css/all.css" rel="stylesheet">
-#+HTML_HEAD: <link href="static/css/mystyle.css" rel="stylesheet">
-#+HTML_HEAD: <script src="static/js/hal.js" charset="utf-8"></script>
-#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="static/foaf.rdf">
+Mots clés :
 
-#+BEGIN_translation
-[[file:index.org][English version]]
-#+END_translation
-
-#+BEGIN_presentation
-Je suis doctorant en géomatique au sein de l'équipe [[https://umrlastig.github.io/meig/][MEIG]] du
-laboratoire [[https://umrlastig.github.io][LASTIG]]. Mes travaux de recherche s'inscrivent dans le
-projet [[http://choucas.ign.fr/][Choucas]], financé par l'ANR. 
-
-Le projet Choucas vise à « […]  proposer des méthodes et des outils
-permettant de constituer et enrichir des données géographiques issues
-de sources hétérogènes, et des modèles de raisonnement afin de
-favoriser le processus de décision dans le contexte de la localisation
-des victimes en montagne. »
-
-L'objectif de ma thèse est de passer d'une /description de
-position/ à un ensemble de coordonées exploitables.
-#+END_presentation
-
-#+BEGIN_team
-Je suis rattaché à l'équipe [[https://umrlastig.github.io/meig/][MEIG]] du laboratoire [[https://umrlastig.github.io][LASTIG]]
-#+END_team
-
-#+BEGIN_contact
-Liens de contact :
-#+BEGIN_contactlist
-- Mail @@html:<a href="mailto:mattia.bunel@ign.fr"><i class="fas
-  fa-envelope"></i></a>@@ 
-- Clé GPG @@html:<a href="static/public-key.txt"><i class="fas
-  fa-key"></i></a>@@
-- Téléphone professionnel @@html:<a href="tel:+33143988000"><i class="fas
-  fa-phone"></i></a>@@
-- Twitter @@html:<a href="https://twitter.com/mattiabunel"><i
-  class="fab fa-twitter"></i></a>@@
-- GitHub @@html:<a href="https://github.com/MBunel"><i class="fab
-  fa-github"></i></a>@@
-- OCRID @@html:<a href="https://orcid.org/0000-0001-7751-3507"><i class="fas
-  fa-user-tag"></i></a>@@
-- FOAF @@html:<a href="static/foaf.rdf"><i class="fas
-  fa-address-card"></i></a>@@
-#+END_contactlist
-#+END_contact
-
-* Thématiques de recherche
 - Imprécision et imprécision spatiale
 - /Naive Geography/
 - Localisation spatiale
 
-* Formation et expérience
+** Antérieurs à la thèse
 
-J'ai été ingénieur d'études au sein du laboratoire [[http://www.parisgeo.cnrs.fr/][Géographie-cités]].
-J'ai principalement travaillé pour le projet [[http://www.world-seastems.cnrs.fr/][WorldSeastems]], dont
-l'objectif est l'extraction et l'analyse des archives du principal
-assureur maritime (la Lloyd's of London).
+Mes premières activités de recherche ont pris place au sein de l’ANR
+SoDeMoMed, projet où j’ai effectué un stage en licence 3, et auquel
+j’ai été rattaché lors de la réalisation de mes mémoires de master 1
+et de master 2 (SDS). Durant cette période, mon travail portait sur
+l’analyse diachronique de la distribution de la population, et sur
+l’identification des facteurs climatiques l’ayant influencée. Au cours
+de mon master 1 j’ai abordé cette question en me penchant sur
+l’ensemble du bassin méditerranéen, et j’ai ensuite approfondie en
+master 2, où je n’ai travaillé que sur la France métropolitaine, mais
+à l’échelle communale et sur le temps long (1793-1999). À la suite de
+mon master Carthagéo j’ai effectué un stage au sein de l’ERC
+WorldSeastem, prolongé par deux contrats d’ingénieur d’études. Ma
+mission première était de développer une plate-forme de visualisation
+de données maritimes historiques extraites des archives de la Lloyd’s,
+mais j’ai également eu l’occasion de travailler sur des problématiques
+de recherche. La question que j’ai principalement traitée est celle du
+traitement, de l’analyse et de la représentation des données de flux
+dont nous disposions.
 
+** Travaux de thèse
+
+Ma thèse de doctorat a été réalisée dans le cadre du projet Choucas
+[fn:: http://choucas.ign.fr/], dont l’objectif est de développer des
+méthodes et des outils permettant aux secouristes des pelotons de
+gendarmerie de haute-montagne (PGHM) de localiser plus efficacement
+les personnes perdues ou blessées en montagne, et ne pouvant pas
+décrire leur position avec suffisamment de précision. Cela passe par
+le développement d’outils d’aide à la décision, par l’enrichissement
+des données métier à la disposition des secouristes, par le
+développement d’interfaces IHM, et par l’automatisation de la
+spatialisation des positions écrites oralement. Mon travail de thèse
+portait plus spécifiquement sur ce dernier point. Mon objectif était
+de développer une méthode permettant d’identifier la position de la
+victime contactant les secours à partir des indications données par
+téléphone. Pour ce faire j’ai développé une méthode fondée sur un
+principe de décomposition.  L’ensemble des indices donnés par la
+victime pour décrire sa position (ex. « Je suis sous une route », « Je
+suis proche d’un chalet ») sont spatialisés indépendamment, puis
+fusionnés, de manière à construire la zone correspondant à l’ensemble
+de ces descriptions. Pour permettre la prise en compte de
+l’imprécision, inhérente à une description orale de position, la
+méthode proposée s’appuie sur la théorie des sous- ensembles
+flous. Chaque des zones spatialisant un indice de localisation donné
+est représentée sous la forme d’un sous-ensemble flou, ce qui permet
+une meilleure modélisation des transitions entre la zone correspondant
+à l’indice de localisation et celle qui n’y correspond pas.
+
+** Travaux postérieurs à la thèse
+
+A la suite de ma thèse j’ai travaillé quelques mois en tant que
+post-doctorant au sein de l’ANR CORES 3 . L’objectif premier de ce
+projet est d’étudier l’impact des applications cartographiques, et
+plus spécifiquement les application de cartographie participatives
+(i.e. qui montrent en permanence les mouvements des autres
+utilisateurs), sur les déplacements piétons en milieu urbain,
+l’hypothèse majeure du projet étant que plus les utilisateurs
+disposent d’une application riche en informations, moins ils ne
+retiennent la structure spatiale de la zone qu’ils parcourent. Pour
+répondre à cette question un ensemble d’expérimentations ont étés
+menées avant mon arrivée. Ces dernières consistaient à demander à des
+volontaires de parcourir librement pendant une heure, une zone
+préalablement délimitée, dans le but d’en dessiner une carte la plus
+précise possible. Lors de son déplacement, chaque volontaire disposait
+d’une application cartographique, dont le fonctionnement pouvait était
+adapté pour chaque groupe d’utilisateur (GPS activé ou non,
+visualisation de la position des autres utilisateurs ou non, etc.). Au
+sein de ce projet mon rôle était de mettre en place une méthode
+permettant d’analyser les données produites lors de ces
+expérimentations, de manière à quantifier l’impact de la nature de
+l’application de cartographie utilisée sur la représentation spatiale
+de la zone visitée.
+
+Ma récente participation à l’ANR HITI 4 s’inscrit à la suite de ma
+collaboration avec les chercheurs de l’ANR CORES. L’objectif du projet
+HITI est d’analyser les représentation spatiales des zones de pèche
+par les pécheurs lagunaires de Moorea (Polynésie française). En effet,
+les représentations cartographiques traditionnelles (cartes zénithales
+délimitant l’espace géographique de manière nette) ne sont pas un
+outil à même de rendre compte de la représentation locale de la
+délimitation du lagon, ce dernier étant perçu comme un continuum et
+non comme une rupture nette. Une des pistes méthodologiques envisagées
+et de faire appel à la théorie des sous-ensembles flous de manière à
+définir et traiter des objets géographiques aux délimitations
+imprécises, de manière analogue à la démarche proposée dans ma
+thèse. Ma fonction au sein de projet consiste donc à apporter un
+support scientifique et technique sur cette question.
+
+** Participation à des projets de recherche
+
++ Depuis 2021 Post-doctorant, puis chercheur associé à l’ANR CORES
++ Depuis 2017 Doctorant, puis chercheur associé à l’ANR CHOUCAS 2016 –2018
++ Stagiaire, ingénieur d’études contractuel, puis chercheur associé à l’ERC WorldSeastems 2017
++ Ingénieur d’études contractuel pour l’UMR GéoAzur 2014 –2015
++ Stagiaire, puis masteran associé à l’ANR SoDeMoMed
+
+
+** Évaluations                                                     :noexport:
+
++ 2021 Revue Geomatica
++ 2022 Hypelion
+
+
+* Enseignements
+
+** Formation initiale
+
+- SGBDR spatiaux
+- Statistiques
+- Analyse spatiale
+- Introduction à Latex
+- Introduction à l’imprécision spatiale et à sa modélisation
+- SIG
+
+** Formation continue
+
+- Formation RGE ALTI
+
+* Encadrement                                                      :noexport:
+
+- IGAST erreur
+- Matthieu
+- Jade
+- T et G
+
+* Vulgarisation scientifique
+- [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
+- [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]
+
+* Activités de développement                                       :noexport:
+
+** Collaboration à des projets libres
+
+* Cursus universitaire                                             :noexport:
 
 Je suis titulaire d'une licence en géographie (2010-2013), d'un master
 2 recherche en géographie quantitative (master /structures et
 dynamiques spatiales,/ 2015) et d'un master professionnel en
 cathographie et géomatique (/master Carthagéo,/ 2016).
 
-* Enseignements
-** Mastère DESIGEO
-- Introduction à /l'imprécision spatiale/ et à sa modélisation (2018--2019, 2019--2020):
-
-Introduction aux notions de /vague, incertitude/ et /imprécision/ et
-de leurs équivalents spatiaux. Présentation des 
-  
-** Master IGAST
-- Analyse spatiale (2017--2018, 2018--2019, 2019--2020):
-
-TP sur l'analyse multivariée et le MAUP 
-
-** ENSG cycle ingénieur:
-
-*** 2^nd année
-- Introduction à PostgreSQL/PotGIS (2017--2018, 2018--2019, 2019--2020):
-
-Introduction au SGBDR PostgreSQL et à sa cartouche spatiale PostGis.
-
-- Introduction à l'analyse spatiale (2017--2018, 2018--2019, 2019--2020):
+#+CAPTION: fdjslkfj
+#+ATTR_HTML: :border 2 :rules groups :frame hsides :cellspacing 0 :cellpadding 6
+|    Période | Formation             | Université                    |
+|------------+-----------------------+-------------------------------|
+| 2017--2021 | Doctorat en STIG      | Université Gustave Eiffel     |
+| 2015--2016 | Master 2 Carthagéo    | Université Panthéon--Sorbonne |
+| 2014--2015 | Master 2 SDS          | Aix-Marseille Université      |
+| 2013--2014 | Master 1 Géographie   | Aix-Marseille Université      |
+| 2010--2013 | Licence de Géographie | Université de Provence        |
+|------------+-----------------------+-------------------------------|
 
 
-*** 1^ère année 
-- Introduction à QGIS (2017--2018, 2018--2019):
-
-Introduction aux SIG par le biais de QGIS.
-
-
-
- # * Encadrement
 * Publications
-#+BEGIN_notaBene
-Cette liste est générée automatiquement à partir de mon profil
-[[https://hal.archives-ouvertes.fr/][Hal]]. Elle peut donc contenir certaines erreurs.
-#+END_notaBene
 
-** Articles
-#+BEGIN_export html
-<ol id="pubJ" class="sub"></ol>
-#+END_export
-** Conférences
-#+BEGIN_export html
-<ol id="pubC" class="sub"></ol>
-#+END_export
-** Chapitres d'ouvrages
-#+BEGIN_export html
-<ol id="pubB" class="sub"></ol>
-#+END_export
-** Posters
-#+BEGIN_export html
-<ol id="pubW" class="sub"></ol>
-#+END_export
-** Autres
-#+BEGIN_export html
-<ol id="pubO" class="sub"></ol>
-#+END_export
-#+BEGIN_EXPORT html
-<script type="text/javascript">
-window.onload = function() {
-    var me = 'mattia-bunel';
-    getJournalPublicationsAuthor(me);
-    getConfPublicationsAuthor(me);
-    getBookPublicationsAuthor(me);
-    getWorkshopPublicationsAuthor(me);
-    getOtherPublicationsAuthor(me);
-    //getInvitedTalksAuthor(me);
-};
-</script>
-#+END_EXPORT
-* Vulgarisation scientifique
-- [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
-- [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]
+[cite/n:@*]
+#+print_bibliography:
+#+cite_export: csl

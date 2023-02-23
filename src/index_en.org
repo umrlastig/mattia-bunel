@@ -1,0 +1,23 @@
+#+INCLUDE: "base.org"
+#+LANGUAGE:en
+
+#+DESCRIPTION: Web page of {{{me}}}
+ 
+I am a doctor in geomatics, and engineer for the altimetric products
+in the french national map agency.
+
+
+* Research Interests
+- Fuzzy logic
+- Vagueness
+- Imprecision
+- Naive Geography
+- Spatial localisation
+  
+* Teaching                                                         :noexport:
+
+* Publications
+
+[cite/n:@*]
+#+print_bibliography:
+#+cite_export: csl
