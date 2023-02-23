@@ -20,7 +20,7 @@
 
 #+attr_html: :style font-size:small; margin-bottom:2.5em;
 #+begin_div
-[[file:index_en.org][English version]] --- [[file:index_fr.org][Version Fançaise]]
+[[file:index_en.org][English version]] --- [[file:index.org][Version Fançaise]]
 
 + Mail : mailto:mattia.bunel@ign.fr
 + Twitter: https://twitter.com/mattiabunel
