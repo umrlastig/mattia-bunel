@@ -23,9 +23,11 @@
 [[file:index_en.org][English version]] --- [[file:index.org][Version Fançaise]]
 
 + Mail : mailto:mattia.bunel@ign.fr
++ GPG key : [[file:static/public-key.txt]]
++ FoafMe : [[file:static/foaf.rdf]]
 + Twitter: https://twitter.com/mattiabunel
 + GitHub : https://github.com/MBunel
 + OCRID : https://orcid.org/0000-0001-7751-3507
-+ Clé GPG : [[file:static/public-key.txt]]
-+ FoafMe : [[file:static/foaf.rdf]]
++ Research Gate : https://www.researchgate.net/profile/Mattia-Bunel
++ HAL : https://cv.archives-ouvertes.fr/mattia-bunel
 #+end_div
