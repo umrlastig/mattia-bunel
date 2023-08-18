@@ -1,6 +1,27 @@
 #+INCLUDE: "base.org"
 #+LANGUAGE:fr
 
+#+AUTHOR: {{{me}}}
+#+TITLE: {{{me}}}
+#+DESCRIPTION: Web page of {{{me}}}
+
+#+HTML_HEAD: <link rel=meta type="application/rdf+xml" title="FOAF" href="static/foaf.rdf">
+
+#+attr_html: :style font-size:small; margin-bottom:2.5em;
+#+begin_div
+[[file:index_en.org][English version]] --- [[file:index.org][Version Fançaise]]
+
++ Mail : mailto:mattia.bunel@ign.fr
++ GPG key : [[file:static/public-key.txt]]
++ FoafMe : [[file:static/foaf.rdf]]
++ Twitter: https://twitter.com/mattiabunel
++ GitHub : https://github.com/MBunel
++ OCRID : https://orcid.org/0000-0001-7751-3507
++ Research Gate : https://www.researchgate.net/profile/Mattia-Bunel
++ HAL : https://cv.archives-ouvertes.fr/mattia-bunel
+#+end_div
+
+
 Je suis docteur en géomatique, rattaché, au corps des ingénieurs des
 travaux géographiques et cartographiques de l’état (ITGCE), avec la
 fonction d’ingénieur d’études référent pour les produits altimétriques
@@ -118,6 +139,8 @@ support scientifique et technique sur cette question.
 + 2021 Revue Geomatica
 + 2022 Hypelion
 
+** Conférences organisées
++ [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées,]] 2023, IGN
 
 * Enseignements
 
@@ -167,9 +190,5 @@ cathographie et géomatique (/master Carthagéo,/ 2016).
 | 2010--2013 | Licence de Géographie | Université de Provence        |
 |------------+-----------------------+-------------------------------|
 
-
 * Publications
-
-[cite/n:@*]
-#+print_bibliography:
-#+cite_export: csl
+[[file:./bibliography.org]]
